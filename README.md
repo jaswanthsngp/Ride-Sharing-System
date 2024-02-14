@@ -18,12 +18,11 @@ after the Trip is complete.
 2. The Admin should be able to access the overall experience feedback of the users.
 
 
-## Front End
-Kotlin based
+## Application
+Divided into two parts
 
-## Back End
-Python based
+### Database Handler
+A class that stores all the methods interacting with the DataBase
 
-## Constraints:
-1. Implement robust authentication measures to ensure the security of user accounts.
-2. Propose scalable strategies to accommodate an expandining user base.
+### API Handler
+A flask API system responsible for serving data through the server
